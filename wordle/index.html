@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  </head>
+
+
+
+
+
+
+  <body>
+
+    <nav id="myNav">                                
+      <ul>
+        <li ><h1 id = "non-changing">Wordle</h1></li>
+        <div class = "rightButtons">
+          <button id ="darkButton" onclick="start()"><i class="fa fa-moon-o" aria-hidden="true" style="font-size: 20px;"></i></button>
+          <button id ="hintButton" onclick="start()"><i class="fa fa-question-circle" aria-hidden="true" style="font-size: 20px;"></i></button>
+          <button id ="infoButton" onclick="start()"><i class="fa fa-info-circle" aria-hidden="true" style="font-size: 20px;"></i></button>
+        </div>
+      </ul>
+    </nav>
+
+    <div id = "main">
+
+    <div id = "mainWithoutRestart">
+    <table id = "myTable" >
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <p id = "hint"></p>
+    <p id = "lost"></p>
+
+  </div>
+    <button id = "StartOverButton" onclick="start()">Start Over</button>
+
+
+  </div>
+
+    <script src="./wordle.js"></script>
+  </body>
+
+
+
+
+
+</html>
