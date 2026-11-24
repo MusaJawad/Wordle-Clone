@@ -47,7 +47,7 @@ function checkWord(i,correctWord){
 
 
 async function fetchDictionary() {
-    const apiKey = "sw0Tr2othT1AyTQtNDUE06LqMckbTiKWaVYhuirv";
+    const Key = "aaaaa";
     const endpoint = "https://api.masoudkf.com/v1/wordle";
 
     const res = await fetch(endpoint, {
